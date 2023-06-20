@@ -30,3 +30,17 @@ void printFibonacci(int n)
 	}
 	printf("\n");
 }
+
+/**
+ * main - Entry point of the program
+ *
+ * This program demonstrates the printFibonacci function by printing the
+ * first 50 Fibonacci numbers.
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	printFibonacci(50);
+	return (0);
+}
