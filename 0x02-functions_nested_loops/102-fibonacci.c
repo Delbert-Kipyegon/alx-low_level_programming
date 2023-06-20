@@ -9,7 +9,7 @@
 
 void printFibonacci(int n)
 {
-	int fib[50];
+	unsigned long long fib[50];
 	int i;
 
 	fib[0] = 1;
