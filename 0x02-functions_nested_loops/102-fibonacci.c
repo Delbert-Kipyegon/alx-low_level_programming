@@ -9,7 +9,7 @@
 
 void printFibonacci(int n)
 {
-	unsigned long long fib[50];
+	unsigned long fib[50];
 	int i;
 
 	fib[0] = 1;
@@ -22,7 +22,7 @@ void printFibonacci(int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", fib[i]);
+		printf("%lu", fib[i]);
 		if (i != n - 1)
 		{
 			printf(", ");
