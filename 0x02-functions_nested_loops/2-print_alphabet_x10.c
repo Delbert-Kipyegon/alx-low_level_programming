@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-void print_aphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i, j;
 
@@ -16,9 +16,9 @@ void print_aphabet_x10(void)
 
 		for (j = 0; j < 26; j++)
 		{
-			putchar(c);
+			_putchar(c);
 			c++;
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
