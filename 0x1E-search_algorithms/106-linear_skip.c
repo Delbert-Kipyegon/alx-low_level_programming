@@ -3,7 +3,7 @@
 /**
  * linear_skip - searches for a value in a skip list
  *
- * @list: input list
+ * @list: input-list
  * @value: value to search in
  * Return: index of the number
  */
